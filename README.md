@@ -34,7 +34,7 @@ python src/prepare_dataset.py
 ```bash
 python src/train.py
 ```
-### 4. Визуализация результатов
+### 5. Визуализация результатов
 ```bash
 python src/visualize_results.py --model models/best.pt
 ```
