@@ -21,3 +21,20 @@
 ### 1. Установка окружения
 ```bash
 pip install -r requirements.txt
+```
+### 2. Скачивание датасета
+```bash
+python src/download_dataset.py
+```
+### 3. Подготовка данных
+```bash
+python src/prepare_dataset.py
+```
+### 4. Обучение модели
+```bash
+python src/train.py
+```
+### 4. Визуализация результатов
+```bash
+python src/visualize_results.py --model models/best.pt
+```
